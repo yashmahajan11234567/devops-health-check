@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: devops-health-config
+  namespace: devops-health
+  labels:
+    app.kubernetes.io/name: devops-health-check
+data:
+  APP_NAME: "devops-health-check"
+  APP_ENV: "production"
+  APP_PORT: "8000"
+  APP_READY: "true"

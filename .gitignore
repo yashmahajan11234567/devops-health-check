@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Env & secrets
+.env
+.env.*
+
+# Logs & OS noise
+*.log
+.DS_Store
+
+# Local scratch
+.docker/
